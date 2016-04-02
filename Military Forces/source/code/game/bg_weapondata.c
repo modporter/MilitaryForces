@@ -43,7 +43,7 @@ completeWeaponData_t availableWeapons[] =
 		{0,0,0},							// max turret angles
 		{0,0,0},							// min turret angles
 		1,									// number per package
-		CAT_ANY,							// fits on category
+		CAT_LQM,							// fits on category
 		PF_NA,								// fits on pylon
 		0,									// basicECMVulnerability
 		0,									// flags
@@ -83,7 +83,7 @@ completeWeaponData_t availableWeapons[] =
 		{0,0,0},							// max turret angles
 		{0,0,0},							// min turret angles
 		1,									// number per package
-		CAT_ANY,							// fits on category
+		CAT_LQM,							// fits on category
 		PF_NA,								// fits on pylon
 		0,									// basicECMVulnerability
 		0,									// flags
@@ -123,7 +123,7 @@ completeWeaponData_t availableWeapons[] =
 		{0,0,0},							// max turret angles
 		{0,0,0},							// min turret angles
 		1,									// number per package
-		CAT_ANY,							// fits on category
+		CAT_LQM,							// fits on category
 		PF_NA,								// fits on pylon
 		0,									// basicECMVulnerability
 		0,									// flags
