@@ -1,5 +1,5 @@
 /*
- * $Id: bg_weapondata.c,v 1.40 2005-07-07 22:22:05 minkis Exp $
+ * $Id: bg_weapondata.c,v 1.5 2016-04-04 osfpsproject Exp $
 */
 
 #include "q_shared.h"
@@ -25,8 +25,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		2000,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		175,								// fire interval
 		4,									// damage
 		0,									// damageRadius
@@ -43,7 +41,7 @@ completeWeaponData_t availableWeapons[] =
 		{0,0,0},							// max turret angles
 		{0,0,0},							// min turret angles
 		1,									// number per package
-		CAT_ANY,							// fits on category
+		CAT_LQM,							// fits on category
 		PF_NA,								// fits on pylon
 		0,									// basicECMVulnerability
 		0,									// flags
@@ -65,8 +63,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		2000,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		175,								// fire interval
 		5,									// damage
 		0,									// damageRadius
@@ -83,7 +79,7 @@ completeWeaponData_t availableWeapons[] =
 		{0,0,0},							// max turret angles
 		{0,0,0},							// min turret angles
 		1,									// number per package
-		CAT_ANY,							// fits on category
+		CAT_LQM,							// fits on category
 		PF_NA,								// fits on pylon
 		0,									// basicECMVulnerability
 		0,									// flags
@@ -105,8 +101,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		2000,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		600,								// fire interval
 		10,									// damage
 		0,									// damageRadius
@@ -123,7 +117,7 @@ completeWeaponData_t availableWeapons[] =
 		{0,0,0},							// max turret angles
 		{0,0,0},							// min turret angles
 		1,									// number per package
-		CAT_ANY,							// fits on category
+		CAT_LQM,							// fits on category
 		PF_NA,								// fits on pylon
 		0,									// basicECMVulnerability
 		0,									// flags
@@ -145,8 +139,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		2000,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		150,								// fire interval
 		10,									// damage
 		0,									// damageRadius
@@ -185,8 +177,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		2000,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		150,								// fire interval
 		12,									// damage
 		0,									// damageRadius
@@ -225,8 +215,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		2000,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		150,								// fire interval
 		14,									// damage
 		0,									// damageRadius
@@ -265,8 +253,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		2000,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		150,								// fire interval
 		20,									// damage
 		0,									// damageRadius
@@ -305,8 +291,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		2000,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		150,								// fire interval
 		22,									// damage
 		0,									// damageRadius
@@ -345,8 +329,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		2000,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		150,								// fire interval
 		26,									// damage
 		0,									// damageRadius
@@ -385,8 +367,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		2000,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		150,								// fire interval
 		48,									// damage
 		0,									// damageRadius
@@ -425,8 +405,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		2000,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		150,								// fire interval
 		80,									// damage
 		0,									// damageRadius
@@ -465,8 +443,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		2000,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		600,								// fire interval
 		2000,								// damage
 		5,									// damageRadius
@@ -505,8 +481,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		2000,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		600,								// fire interval
 		2200,								// damage
 		5,									// damageRadius
@@ -545,8 +519,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		2000,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		600,								// fire interval
 		2300,								// damage
 		5,									// damageRadius
@@ -585,8 +557,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		2000,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		600,								// fire interval
 		2300,								// damage
 		5,									// damageRadius
@@ -625,10 +595,46 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		2000,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		600,								// fire interval
 		4000,								// damage
+		5,									// damageRadius
+		1,									// spread (in 0.1 deg; ie 60 means +- 3 degrees)
+		2,									// barrels
+		0,									// barrelDistance
+		0,									// lockcone
+		0,									// followcone
+		0,									// locktime
+		CH_GUNMODE,							// crosshair
+		CH_GUNMODE,							// crosshair track
+		CH_GUNMODE,							// crosshair lock
+		0,									// turret
+		{0,0,0},							// max turret angles
+		{0,0,0},							// min turret angles
+		1,									// number per package
+		CAT_ANY,							// fits on category
+		PF_NA,								// fits on pylon
+		0,									// basicECMVulnerability
+		0,									// flags
+	},
+	
+	// 2x 23 mm autocannon
+	{ 
+		WT_BALLISTICGUN,					// type
+		MF_GAMESET_ANY,						// gameset
+		"2x 23 mm autocannon",				// descriptiveName
+		"double GSh-23",					// shortName
+		"double GSh-23",					// shortName2 (GVs)
+		"",									// modelName
+		0,									// handle
+		"",									// vwepName
+		0,									// vwephandle
+		"hud/iconw_acn.tga",				// iconName
+		0,									// iconHandle
+		CAT_ANY,							// cat
+		0,									// non cat mod
+		2000,								// muzzleVelocity
+		600,								// fire interval
+		4200,								// damage
 		5,									// damageRadius
 		1,									// spread (in 0.1 deg; ie 60 means +- 3 degrees)
 		2,									// barrels
@@ -665,8 +671,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		2000,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		600,								// fire interval
 		8400,								// damage
 		5,									// damageRadius
@@ -705,8 +709,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		2000,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		1500,								// fire interval
 		2000,								// damage
 		60,									// damageRadius
@@ -745,8 +747,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		2000,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		1500,								// fire interval
 		3000,								// damage
 		60,									// damageRadius
@@ -785,8 +785,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		2000,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		1500,								// fire interval
 		4000,								// damage
 		60,									// damageRadius
@@ -825,8 +823,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		2000,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		1500,								// fire interval
 		4800,								// damage
 		60,									// damageRadius
@@ -865,8 +861,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		2000,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		1500,								// fire interval
 		8000,								// damage
 		60,									// damageRadius
@@ -905,8 +899,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_PLANE|CAT_HELO,					// cat
 		0.3f,								// non cat mod
 		1500,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		500,								// fire interval
 		14000,								// damage
 		5,									// damageRadius
@@ -945,8 +937,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_PLANE|CAT_HELO,					// cat
 		0.3f,								// non cat mod
 		1500,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		500,								// fire interval
 		22000,								// damage
 		5,									// damageRadius
@@ -985,8 +975,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_PLANE|CAT_HELO,					// cat
 		0.3f,								// non cat mod
 		1500,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		500,								// fire interval
 		46000,								// damage
 		5,									// damageRadius
@@ -1025,8 +1013,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_PLANE|CAT_HELO,					// cat
 		0.3f,								// non cat mod
 		1500,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		500,								// fire interval
 		78000,								// damage
 		5,									// damageRadius
@@ -1065,8 +1051,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_PLANE|CAT_HELO,					// cat
 		0.3f,								// non cat mod
 		1500,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		500,								// fire interval
 		80000,								// damage
 		5,									// damageRadius
@@ -1105,8 +1089,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_PLANE|CAT_HELO,					// cat
 		0.3f,								// non cat mod
 		1500,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		500,								// fire interval
 		120000,								// damage
 		5,									// damageRadius
@@ -1145,8 +1127,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0.3f,								// non cat mod
 		1500,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		500,								// fire interval
 		6000,								// damage
 		5,									// damageRadius
@@ -1185,8 +1165,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		1500,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		500,								// fire interval
 		16000,								// damage
 		5,									// damageRadius
@@ -1225,8 +1203,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_GROUND,							// cat
 		0.3f,								// non cat mod
 		1500,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		500,								// fire interval
 		18000,								// damage
 		5,									// damageRadius
@@ -1267,8 +1243,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_GROUND,							// cat
 		0.3f,								// non cat mod
 		1500,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		500,								// fire interval
 		114000,								// damage
 		5,									// damageRadius
@@ -1307,8 +1281,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_GROUND,							// cat
 		0.3f,								// non cat mod
 		1500,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		500,								// fire interval
 		132000,								// damage
 		70,									// damageRadius
@@ -1347,8 +1319,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_GROUND,							// cat
 		0.3f,								// non cat mod
 		1500,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		750,								// fire interval
 		2000,								// damage
 		5,									// damageRadius
@@ -1365,7 +1335,7 @@ completeWeaponData_t availableWeapons[] =
 		{0,0,0},							// max turret angles
 		{0,0,0},							// min turret angles
 		1,									// number per package
-		CAT_GROUND,							// fits on category
+		CAT_LQM,							// fits on category
 		PF_NA,								// fits on pylon
 		0,									// basicECMVulnerability
 		0,									// flags
@@ -1387,8 +1357,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_GROUND,							// cat
 		0.3f,								// non cat mod
 		1500,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		750,								// fire interval
 		2000,								// damage
 		5,									// damageRadius
@@ -1405,7 +1373,7 @@ completeWeaponData_t availableWeapons[] =
 		{0,0,0},							// max turret angles
 		{0,0,0},							// min turret angles
 		1,									// number per package
-		CAT_GROUND,							// fits on category
+		CAT_LQM,							// fits on category
 		PF_NA,								// fits on pylon
 		0,									// basicECMVulnerability
 		0,									// flags
@@ -1427,8 +1395,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0.3f,								// non cat mod
 		1500,								// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		500,								// fire interval
 		180000,								// damage
 		60,									// damageRadius
@@ -1467,8 +1433,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		0,									// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		500,								// fire interval
 		174000,								// damage
 		107,								// damageRadius
@@ -1507,8 +1471,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		0,									// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		500,								// fire interval
 		404000,								// damage
 		357,								// damageRadius
@@ -1547,8 +1509,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		0,									// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		500,								// fire interval
 		858000,								// damage
 		635,								// damageRadius
@@ -1587,8 +1547,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		0,									// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		500,								// fire interval
 		10000,								// damage
 		700,								// damageRadius
@@ -1627,8 +1585,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		0,									// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		500,								// fire interval
 		1600000000,							// damage
 		535710,								// damageRadius
@@ -1667,8 +1623,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		0,									// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		500,								// fire interval
 		1820000,							// damage
 		120,								// damageRadius
@@ -1707,8 +1661,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		0,									// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		500,								// fire interval
 		858000,								// damage
 		635,								// damageRadius
@@ -1747,8 +1699,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_GROUND,							// cat
 		0.3f,								// non cat mod
 		0,									// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		500,								// fire interval
 		230000,								// damage
 		141,								// damageRadius
@@ -1787,8 +1737,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		0,									// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		500,								// fire interval
 		20,									// damage
 		0,									// damageRadius
@@ -1827,8 +1775,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		0,									// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		500,								// fire interval
 		20,									// damage
 		0,									// damageRadius
@@ -1858,19 +1804,17 @@ completeWeaponData_t availableWeapons[] =
 		"Health crate",						// descriptiveName
 		"Health crate",						// shortName
 		"Health crate",						// shortName2 (GVs)
-		"models/weapons/crate.md3",			// modelName
+		"models/weapons/healthcrate.md3",	// modelName
 		0,									// handle
-		"models/weapons/crate.md3",			// vwepName
+		"models/weapons/healthcrate.md3",	// vwepName
 		0,									// vwephandle
 		"hud/iconw_bmb.tga",				// iconName
 		0,									// iconHandle
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		45,									// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		200,								// fire interval
-		20,									// damage
+		0,									// damage
 		0,									// damageRadius
 		1,									// spread
 		1,									// barrels
@@ -1898,19 +1842,17 @@ completeWeaponData_t availableWeapons[] =
 		"Ammo crate",						// descriptiveName
 		"Ammo crate",						// shortName
 		"Ammo crate",						// shortName2 (GVs)
-		"models/weapons/crate.md3",			// modelName
+		"models/weapons/ammocrate.md3",		// modelName
 		0,									// handle
-		"models/weapons/crate.md3",			// vwepName
+		"models/weapons/ammocrate.md3",		// vwepName
 		0,									// vwephandle
 		"hud/iconw_bmb.tga",				// iconName
 		0,									// iconHandle
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		45,									// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		200,								// fire interval
-		20,									// damage
+		0,									// damage
 		0,									// damageRadius
 		1,									// spread
 		1,									// barrels
@@ -1931,6 +1873,120 @@ completeWeaponData_t availableWeapons[] =
 		0,									// flags
 	},
 
+	// Vehicle repair crate
+	{ 
+		WT_VEHICLEREPAIRCRATE,				// type
+		MF_GAMESET_ANY,						// gameset
+		"Vehicle repair crate",				// descriptiveName
+		"Vehicle repair crate",				// shortName
+		"Vehicle repair crate",				// shortName2 (GVs)
+		"models/weapons/vehiclerepaircrate.md3",	// modelName
+		0,									// handle
+		"models/weapons/vehiclerepaircrate.md3",	// vwepName
+		0,									// vwephandle
+		"hud/iconw_bmb.tga",				// iconName
+		0,									// iconHandle
+		CAT_ANY,							// cat
+		0,									// non cat mod
+		45,									// muzzleVelocity
+		200,								// fire interval
+		0,									// damage
+		0,									// damageRadius
+		1,									// spread
+		1,									// barrels
+		0,									// barrelDistance
+		0,									// lockcone
+		0,									// followcone
+		0,									// locktime
+		CH_GUNMODE,							// crosshair
+		CH_GUNMODE,							// crosshair track
+		CH_GUNMODE,							// crosshair lock
+		0,									// turret
+		{0,0,0},							// max turret angles
+		{0,0,0},							// min turret angles
+		1,									// number per package
+		CAT_HELO,							// fits on category
+		0,									// fits on pylon
+		0,									// basicECMVulnerability
+		0,									// flags
+	},
+	
+	// Vehicle ammo crate
+	{ 
+		WT_VEHICLEAMMOCRATE,				// type
+		MF_GAMESET_ANY,						// gameset
+		"Vehicle ammo crate",				// descriptiveName
+		"Vehicle ammo crate",				// shortName
+		"Vehicle ammo crate",				// shortName2 (GVs)
+		"models/weapons/vehicleammocrate.md3",	// modelName
+		0,									// handle
+		"models/weapons/vehicleammocrate.md3",	// vwepName
+		0,									// vwephandle
+		"hud/iconw_bmb.tga",				// iconName
+		0,									// iconHandle
+		CAT_ANY,							// cat
+		0,									// non cat mod
+		45,									// muzzleVelocity
+		200,								// fire interval
+		0,									// damage
+		0,									// damageRadius
+		1,									// spread
+		1,									// barrels
+		0,									// barrelDistance
+		0,									// lockcone
+		0,									// followcone
+		0,									// locktime
+		CH_GUNMODE,							// crosshair
+		CH_GUNMODE,							// crosshair track
+		CH_GUNMODE,							// crosshair lock
+		0,									// turret
+		{0,0,0},							// max turret angles
+		{0,0,0},							// min turret angles
+		1,									// number per package
+		CAT_HELO,							// fits on category
+		0,									// fits on pylon
+		0,									// basicECMVulnerability
+		0,									// flags
+	},
+	
+	// Anti personnel, anti vehicle mine
+	{ 
+		WT_MINE,							// type
+		MF_GAMESET_ANY,						// gameset
+		"MON-100 anti personnel, anti vehicle mine",	// descriptiveName
+		"AP_AV mine",						// shortName
+		"AP_AV mine",						// shortName2 (GVs)
+		"models/weapons/MON100mine.md3",	// modelName
+		0,									// handle
+		"models/weapons/MON100mine.md3",	// vwepName
+		0,									// vwephandle
+		"hud/iconw_bmb.tga",				// iconName
+		0,									// iconHandle
+		CAT_ANY,							// cat
+		0,									// non cat mod
+		45,									// muzzleVelocity
+		200,								// fire interval
+		0,									// damage
+		0,									// damageRadius
+		1,									// spread
+		1,									// barrels
+		0,									// barrelDistance
+		0,									// lockcone
+		0,									// followcone
+		0,									// locktime
+		CH_GUNMODE,							// crosshair
+		CH_GUNMODE,							// crosshair track
+		CH_GUNMODE,							// crosshair lock
+		0,									// turret
+		{0,0,0},							// max turret angles
+		{0,0,0},							// min turret angles
+		1,									// number per package
+		CAT_HELO,							// fits on category
+		0,									// fits on pylon
+		0,									// basicECMVulnerability
+		0,									// flags
+	},
+	
 	// Flare
 	{ 
 		WT_FLARE,							// type
@@ -1947,8 +2003,6 @@ completeWeaponData_t availableWeapons[] =
 		0,									// cat
 		0,									// non cat mod
 		0,									// muzzleVelocity
-		0,									// range
-		500,								// fuelrange
 		500,								// fire interval
 		0,									// damage
 		0,									// damageRadius
@@ -1987,8 +2041,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		0,									// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		100,								// fire interval
 		0,									// damage
 		0,									// damageRadius
@@ -2027,8 +2079,6 @@ completeWeaponData_t availableWeapons[] =
 		CAT_ANY,							// cat
 		0,									// non cat mod
 		0,									// muzzleVelocity
-		0,									// range
-		0,									// fuelrange
 		200,								// fire interval
 		0,									// damage
 		100,								// damageRadius
