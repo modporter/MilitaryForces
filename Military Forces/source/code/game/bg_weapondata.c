@@ -617,6 +617,44 @@ completeWeaponData_t availableWeapons[] =
 		0,									// flags
 	},
 	
+		// 2x 23 mm autocannon
+	{ 
+		WT_BALLISTICGUN,					// type
+		MF_GAMESET_ANY,						// gameset
+		"2x 23 mm autocannon",				// descriptiveName
+		"double GSh-23",					// shortName
+		"double GSh-23",					// shortName2 (GVs)
+		"",									// modelName
+		0,									// handle
+		"",									// vwepName
+		0,									// vwephandle
+		"hud/iconw_acn.tga",				// iconName
+		0,									// iconHandle
+		CAT_ANY,							// cat
+		0,									// non cat mod
+		2000,								// muzzleVelocity
+		600,								// fire interval
+		4200,								// damage
+		5,									// damageRadius
+		1,									// spread (in 0.1 deg; ie 60 means +- 3 degrees)
+		2,									// barrels
+		0,									// barrelDistance
+		0,									// lockcone
+		0,									// followcone
+		0,									// locktime
+		CH_GUNMODE,							// crosshair
+		CH_GUNMODE,							// crosshair track
+		CH_GUNMODE,							// crosshair lock
+		0,									// turret
+		{0,0,0},							// max turret angles
+		{0,0,0},							// min turret angles
+		1,									// number per package
+		CAT_ANY,							// fits on category
+		PF_NA,								// fits on pylon
+		0,									// basicECMVulnerability
+		0,									// flags
+	},
+	
 	// 4x 23 mm autocannon
 	{ 
 		WT_BALLISTICGUN,					// type
